@@ -1,0 +1,16 @@
+{
+  "name": "num_shiny",
+  "version": "0.0.2",
+  "description": "This discord bot is a version of NUM_ERROR, named NUM_SHINY. This bot allows you to add Pokédex entries for Fakemon.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gigabars, Popplio",
+  "license": "GNU General Public License",
+  "dependencies": {
+    "cleverbot.io": "^1.0.4",
+    "discord.js": "^11.0.0",
+    "discord.js-commando": "^0.8.4"
+  }
+}

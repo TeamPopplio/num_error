@@ -1,0 +1,44 @@
+{
+    "licensecomment": {
+        "This file is part of NUM_SHINY.":
+        "NUM_SHINY is free software: you can redistribute it and/or modify",
+        "it under the terms of the GNU General Public License as published by":
+        "the Free Software Foundation, either version 3 of the License, or",
+        "(at your option) any later version.":
+
+        "NUM_SHINY is distributed in the hope that it will be useful,",
+        "but WITHOUT ANY WARRANTY; without even the implied warranty of":
+        "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+        "GNU General Public License for more details.":
+
+        "You should have received a copy of the GNU General Public License",
+        "along with NUM_SHINY.  If not, see <http://www.gnu.org/licenses/>.":
+        ""
+    },
+    "name":
+        "NUM_SHINY",
+    "about":
+        "The bot hoster hasn't set a description for me yet! :sob:",
+    "version":
+        "0.0.2",
+    "prefix":
+        "-",
+    "welcome":
+        "Welcome to the server! Please read the welcome channel before continuing. Be sure to check out the rules aswell! :heart:",
+    "token":
+        "Bot token must be placed here in order to fuction!!",
+    "minimodRole":
+        "Minimod Role ID goes here. (Use -listids)",
+    "modRole":
+        "Mod Role ID goes here. (Use -listids)",
+    "popplio":
+        "Owner Role ID goes here. (Use -listids)",
+    "logchannel":
+        "Log Channel ID goes here.",
+    "adminchannel":
+        "Admin Channel ID goes here.",
+    "shitpostchannel":
+        "Shitpost Channel ID goes here.",
+    "servers":
+        "Server names go here. Ex: House of Cards, Amare, NUM_SHINY Support"
+}
