@@ -83,7 +83,6 @@ const misc = new Discord.RichEmbed()
   .addField('-listids', 'Lists __ALL__ roles in the server.', true)
   .addField('-say', "``-say Hey now, you're an all star.``\nRepeats text placed in the arguments.", true)
   .addField('-gigabars', 'thank gigabars', true)
-  .addField('-lemons', '``-lemons trigger``\nGenerates a story using the arguments.', true)
   .addField('-sid', 'Shows the current server ID.', true);
 const settings = require('./settings.json');
 const fakemon = require('./fakemon.json');
@@ -112,6 +111,8 @@ if (message.content.toLowerCase().includes("*template1*")) { //Popplio's templat
 } else if (message.content.toLowerCase().includes("*kisu*")) { //Fable's Kisu, the grass starter.
     message.channel.sendFile('./art/kisu.png')
     //
+} else if (message.content.includes("(╯°□°）╯︵ ┻━┻")) { //Tableflip Command
+    message.channel.sendMessage("┬─┬ノ( º _ ºノ)")
 }
 ///////////////////////////////////////////////////
 // Fakemon                                       //
@@ -186,8 +187,6 @@ if (message.content.toLowerCase().startsWith(prefix + "dex template1")) { //Popp
     message.channel.sendMessage('http://i.imgur.com/RANCYJ8.jpg')
 } else if (message.content.startsWith(prefix + "servers")) {
     message.channel.sendMessage(settings.servers)
-} else if (message.content.startsWith(prefix + 'lemons')) {
-    message.channel.sendMessage('I’m so glad that our '+args.join(" ")+' tree finally grew and sprouted fruitful '+args.join(" ")+'y '+args.join(" ")+'s. I mean, imagine, we can make '+args.join(" ")+'ade, key '+args.join(" ")+' pie, '+args.join(" ")+' merengue pie. I think it’s the most valuable of property that we have. I think we should go to the bank and get a loan, actually I think we should just get '+args.join(" ")+' tree insurance and then get a loan and use the '+args.join(" ")+' tree as collateral because it is now insured. I truly do love our '+args.join(" ")+' tree. Just imagine a life full of '+args.join(" ")+' trees, and all our beautiful '+args.join(" ")+'s, endless possibilities. They’re so beautiful, I wish I was a '+args.join(" ")+'. You wish you were a '+args.join(" ")+'? If you were a '+args.join(" ")+' I would put you on my shelf and cherish you like I cherish all our '+args.join(" ")+'s. That’s so beautiful, like I only hope that the whores aren’t stealing our '+args.join(" ")+'s you know those naughty whores always steal '+args.join(" ")+'s. we do have a couple '+args.join(" ")+' whores in this community, those damn '+args.join(" ")+'-stealing whores I hate them no one will take our prized '+args.join(" ")+'s from us. Hey, has it been about 10 seconds since we looked at our '+args.join(" ")+' tree? It has been about 10 seconds till we looked at our '+args.join(" ")+' tree. Hey what the FUCK')
 } else if (message.content.startsWith(prefix + 'listids')) {
     message.channel.sendMessage('```xl\nRoles:\n' + message.guild.roles.map(r => r.name) + '\n\nRoleIDs:\n' + message.guild.roles.map(r => r.id) + '\n\nMatch up the role ID with the corresponding role. so the first one on the Role name list would be the first ID.' + '```')
 //admin commands:
@@ -201,6 +200,8 @@ if (message.content.toLowerCase().startsWith(prefix + "dex template1")) { //Popp
         message.delete()
         message.channel.sendMessage("Completed newest dex entries, use ``-dexlist`` to find the new list of entries. -" + message.author.username)
     } else {message.channel.sendMessage('No permission!')}
+} else if (message.content.startsWith(prefix + 'lemons')) {
+    message.channel.sendMessage('I’m so glad that our '+args.join(" ")+' tree finally grew and sprouted fruitful '+args.join(" ")+'y '+args.join(" ")+'s. I mean, imagine, we can make '+args.join(" ")+'ade, key '+args.join(" ")+' pie, '+args.join(" ")+' merengue pie. I think it’s the most valuable of property that we have. I think we should go to the bank and get a loan, actually I think we should just get '+args.join(" ")+' tree insurance and then get a loan and use the '+args.join(" ")+' tree as collateral because it is now insured. I truly do love our '+args.join(" ")+' tree. Just imagine a life full of '+args.join(" ")+' trees, and all our beautiful '+args.join(" ")+'s, endless possibilities. They’re so beautiful, I wish I was a '+args.join(" ")+'. You wish you were a '+args.join(" ")+'? If you were a '+args.join(" ")+' I would put you on my shelf and cherish you like I cherish all our '+args.join(" ")+'s. That’s so beautiful, like I only hope that the whores aren’t stealing our '+args.join(" ")+'s you know those naughty whores always steal '+args.join(" ")+'s. we do have a couple '+args.join(" ")+' whores in this community, those damn '+args.join(" ")+'-stealing whores I hate them no one will take our prized '+args.join(" ")+'s from us. Hey, has it been about 10 seconds since we looked at our '+args.join(" ")+' tree? It has been about 10 seconds till we looked at our '+args.join(" ")+' tree. Hey what the FUCK')
 } else if (message.content.startsWith(prefix + prefix + "softban")) {
     if (message.member.roles.has(settings.modRole) || message.member.roles.has(settings.minimodRole)) {
         if(message.mentions.users.size === 0) {
