@@ -1,7 +1,7 @@
 {
-  "name": "num_shiny",
+  "name": "num_error",
   "version": "0.0.2",
-  "description": "This discord bot is a version of NUM_ERROR, named NUM_SHINY. This bot allows you to add Pokédex entries for Fakemon.",
+  "description": "This discord bot is a version of Porygon-A, named NUM_ERROR. This bot allows you to add Pokédex entries for Fakemon.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

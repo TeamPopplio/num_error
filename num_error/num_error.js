@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// This discord bot is a version of NUM_ERROR, named NUM_SHINY. This bot allows you to add Pokedex entries for Pokemon and/or "Fakemon." //
+// This discord bot is a version of NUM_ERROR, named NUM_ERROR. This bot allows you to add Pokedex entries for Pokemon and/or "Fakemon." //
 // Copyright (C) 2017 House of Cards                                                                                                     //
 // This program is free software: you can redistribute it and/or modify                                                                  //
 // it under the terms of the GNU General Public License as published by                                                                  //
@@ -14,8 +14,8 @@
 // You should have received a copy of the GNU General Public License                                                                     //
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.                                                                 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// NUM_SHINY - Provided by Popplio. 
-// This bot is a version of NUM_ERROR, the Amarean discord bot. Amarean Fakemon Server: https://discord.gg/BJXBhwR
+// NUM_ERROR - Provided by Popplio. 
+// This bot is a version of Porygon-A, the Amarean discord bot. Amarean Fakemon Server: https://discord.gg/BJXBhwR
 // View admin commands using --admin when you have your role ids in settings.json
 // Based on the multifunction bot, Prinny.
 // Written by Popplio with help from Gigabars.

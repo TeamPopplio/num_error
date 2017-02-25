@@ -1,24 +1,22 @@
 {
     "licensecomment": {
-        "This file is part of NUM_SHINY.":
-        "NUM_SHINY is free software: you can redistribute it and/or modify",
+        "This file is part of NUM_ERROR.":
+        "NUM_ERROR is free software: you can redistribute it and/or modify",
         "it under the terms of the GNU General Public License as published by":
         "the Free Software Foundation, either version 3 of the License, or",
         "(at your option) any later version.":
 
-
-        "NUM_SHINY is distributed in the hope that it will be useful,",
+        "NUM_ERROR is distributed in the hope that it will be useful,",
         "but WITHOUT ANY WARRANTY; without even the implied warranty of":
         "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
         "GNU General Public License for more details.":
 
-
         "You should have received a copy of the GNU General Public License",
-        "along with NUM_SHINY.  If not, see <http://www.gnu.org/licenses/>.":
+        "along with NUM_ERROR.  If not, see <http://www.gnu.org/licenses/>.":
         ""
     },
     "name":
-        "num_shiny",
+        "num_error",
     "about":
         "The bot hoster hasn't set a description for me yet! :sob:",
     "version":
@@ -42,5 +40,5 @@
     "shitpostchannel":
         "Shitpost Channel ID goes here.",
     "servers":
-        "Server names go here. Ex: House of Cards, Amare, NUM_SHINY Support"
+        "Server names go here. Ex: House of Cards, Amare, NUM_ERROR Support"
 }

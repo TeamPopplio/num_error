@@ -1,7 +1,7 @@
-# NUM_SHINY
-This discord bot is a version of NUM_ERROR, named NUM_SHINY. This bot allows you to add Pokédex entries for Fakemon.
+# NUM_ERROR
+This discord bot is a version of Porygon-A, named NUM_ERROR. This bot allows you to add Pokédex entries for Fakemon.
 # About
-This bot is a version of NUM_ERROR, the Amarean discord bot. NUM_SHINY is able to bring information forward from your own personal Pokédex as well as sending images that correspond to your entries.
+This bot is a version of NUM_ERROR, the Amarean discord bot. NUM_ERROR is able to bring information forward from your own personal Pokédex as well as sending images that correspond to your entries.
 Written by Popplio with help from Gigabars.
 This bot uses discord.js, the large platform for creating discord bots in javascript: http://discord.js.org
 # Support
