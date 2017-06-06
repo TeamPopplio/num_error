@@ -15,28 +15,12 @@
         "along with NUM_ERROR.  If not, see <http://www.gnu.org/licenses/>.":
         ""
     },
-    "name":
-        "num_error",
-    "about":
-        "The bot hoster hasn't set a description for me yet! :sob:",
-    "version":
-        "0.3.0",
-    "prefix":
-        "-",
-    "welcome":
-        "Please read the welcome channel before continuing. Be sure to check out the rules aswell! :heart:",
-    "token":
-        "Place your token here.",
-    "minimodRole":
-        "Minimod Role ID",
-    "modRole":
-        "Mod Role ID",
-    "owner":
-        "Owner Role ID",
-    "logchannel":
-        "Log Channel ID",
-    "adminchannel":
-        "Admin Channel ID",
-    "servers":
-        "The bot hoster has not configured this yet."
+    "abilitylist":
+        "There are currently 5 abilities in the server:\n```Frisky, Icy Stare, Smooth Crawle, Adrenaline, Corrupted Body```",
+    "Frisky":
+        "**Frisky**\n*Boosts Attack/Speed and lowers Defense/Special Defense at the end of each turn.*",
+    "Adrenaline":
+        "**Adrenaline**\n*If the user is at half its hp or lower, it's Attack stat is doubled. (Passive).*",
+    "CorruptedBody":
+        "**Corrupted Body**\n*The user becomes ???-type. It takes 1x damage from every attack (even super-effective or resisted ones) and only gets STAB from ???-type moves. Pokémon that come in contact with the user also get this ability.*"
 }

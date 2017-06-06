@@ -17,7 +17,7 @@
         ""
     },
     "dexlist":
-        "There are currently 3 Fakemon and 1 lines in the server:\n```Kisu, Kisolis, Kinsam``` You can use ``-dex template1`` or ``-dex template2`` for template Pokedex entries.",
+        "There are currently 3 fakemon and 1 lines in the server:\n```Kisu, Kisolis, Kinsam``` You can use ``-dex template1`` or ``-dex template2`` for template Pokedex entries.",
     "template1":
         "**Template1**\nEvolutions: **Template1** -> Evolution1, Evolution2\nOther Formes: Template2\nTypes: Type1, Type2\nBase stats: ##/##/##/##/##/##\nAbilities: Ability1, Ability2; *Ability3 (Hidden)*\nSize: 0 m, Mass: 0 kg\nEgg groups: Egg group1, Egg group2\n\"*Fakemon description.*\"\nAuthor: Popplio",
     "template2":
