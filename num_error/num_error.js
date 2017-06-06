@@ -206,7 +206,13 @@ if (message.content.toLowerCase().startsWith(prefix + "abilities")) {
     } else {message.channel.send('No permission!')}
 
 } else if (message.content.startsWith(prefix + "sid")) {
-    message.channel.send(message.guild.id, {files:['./welcome.png']})
+    message.channel.send(message.guild.id)
+
+} else if (message.content.startsWith(prefix + 'say')) {
+    message.channel.sendMessage(args.join(" "))
+    message.delete()
+    console.log(message.author.username + "#" + message.author.discriminator + ' says "' + args.join(" ") + '" in #' + message.channel.name + ' on ' + message.guild.name + ".");
+    client.channels.get(settings.logchannel).sendMessage(message.author.username + "#" + message.author.discriminator + ' says "' + args.join(" ") + '" in #' + message.channel.name + ' on ' + message.guild.name + ".");
 
 } else if (message.content.startsWith(prefix + 'cid')) {
     message.channel.send(message.channel.id)
@@ -218,7 +224,7 @@ if (message.content.toLowerCase().startsWith(prefix + "abilities")) {
       message.channel.send(zalgo(args.join(" ")))
       message.delete()
       console.log(message.author.username + "#" + message.author.discriminator + ' zalgoized "' + args.join(" ") + '" in #' + message.channel.name + ' on ' + message.guild.name + ".");
-      client.channels.get('285422660370825216').send(message.author.username + "#" + message.author.discriminator + ' zalgoized "' + args.join(" ") + '" in #' + message.channel.name + ' on ' + message.guild.name + '.');
+      client.channels.get(settings.logchannel).send(message.author.username + "#" + message.author.discriminator + ' zalgoized "' + args.join(" ") + '" in #' + message.channel.name + ' on ' + message.guild.name + '.');
 
 } else if (message.content.startsWith(prefix + "about")) {
     message.channel.send("This is " + settings.name + " v" + settings.version)
