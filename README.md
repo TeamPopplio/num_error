@@ -1,5 +1,5 @@
 # NUM_ERROR
-This discord bot is a version of Porygon-A, named NUM_ERROR. This bot allows you to add Pokédex entries for Fakemon.
+This discord bot allows you to add Pokédex entries for fakemon.
 # About
 NUM_ERROR is able to bring information forward from your own personal Pokédex as well as sending images that correspond to your entries.
 Written by Kisu-Amare#7754 with help from Gigabars.
