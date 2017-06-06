@@ -209,7 +209,7 @@ if (message.content.toLowerCase().startsWith(prefix + "abilities")) {
     message.channel.send(message.guild.id)
 
 } else if (message.content.startsWith(prefix + 'say')) {
-    message.channel.sendMessage(args.join(" "))
+    message.channel.send(args.join(" "))
     message.delete()
     console.log(message.author.username + "#" + message.author.discriminator + ' says "' + args.join(" ") + '" in #' + message.channel.name + ' on ' + message.guild.name + ".");
     client.channels.get(settings.logchannel).sendMessage(message.author.username + "#" + message.author.discriminator + ' says "' + args.join(" ") + '" in #' + message.channel.name + ' on ' + message.guild.name + ".");
